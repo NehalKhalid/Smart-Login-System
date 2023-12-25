@@ -1,0 +1,38 @@
+body{
+    background-color: #24353f;
+}
+a{
+    color: inherit;
+}
+h1{
+    color:#17a2b8 ;
+}
+.bg-background{
+    background-color: #24353f;
+}
+.content{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.container a, #login{
+    text-decoration: none;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.form-control {
+    background-color: transparent;
+    border:1px solid #ced4da ;
+    color: #fff;
+}
+.form-control:focus{
+    background-color: transparent;
+    border-color: #80bdff;
+    box-shadow: none;
+    color: #fff;
+}
+.form-control::placeholder{
+   color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+}
